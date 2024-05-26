@@ -15,11 +15,13 @@ function guardar() {
             total: totalProducto
         });
 
+
+
         mostrarProductos();
         alert('Producto guardado');
         document.getElementById('formulario').reset();
     } else {
-        alert('Por favor, complete todos los campos para guardar el producto');
+        alert('Por favor, complete todos los campos para guardar el producto=');
     }
 }
 
